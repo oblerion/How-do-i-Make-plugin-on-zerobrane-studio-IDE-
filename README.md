@@ -11,12 +11,12 @@ it is a single .lua file in packages folder zb directory.
 - [api](api.md) (auto-completion)
 - an other ...
 
-## Plugin template
+## Plugin template.lua
 ```lua
 local name = "template"
 
-local interpreter={}
-local api={}
+local interpreter={} --your interpreter table
+local api={}         --your api table
 
 -- package template
 return {
