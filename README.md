@@ -18,6 +18,14 @@ local name = "template"
 local interpreter={} --your interpreter table
 local api={}         --your api table
 
+-- add lua basic to api
+local lua = dofile("api/lua/baselib.lua")
+for item, def in pairs(lua) do
+  if included[item] then
+    api[item] = def
+  end
+end
+
 -- package template
 return {
   name = name,
