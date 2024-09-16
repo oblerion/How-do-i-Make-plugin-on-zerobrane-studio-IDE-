@@ -33,12 +33,12 @@ return {
   author = "you",
   version = 0.1,
   onRegister = function(self)
-    ide:AddInterpreter(name, interpreter)
-    ide:AddAPI("lua", name, api)
+    ide:AddInterpreter(interpreter.name, interpreter)
+    ide:AddAPI("lua", api.name, api)
   end,
   onUnRegister = function(self)
-    ide:RemoveInterpreter(name, interpreter)
-    ide:RemoveAPI("lua", name)
+    ide:RemoveInterpreter(interpreter.name, interpreter)
+    ide:RemoveAPI("lua", api.name)
   end,
 }
 
