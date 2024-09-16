@@ -7,7 +7,7 @@ official doc here : https://studio.zerobrane.com/doc-plugin
 it is a single .lua file in packages folder zb directory.
 
 ## What are plugin features ?
-- [interpeter](interpeter) (run debuger/ custom binairy)
-- [api](api) (auto-completion)
+- [interpeter](interpeter.md) (run debuger/ custom binairy)
+- [api](api.md) (auto-completion)
 - an other ...
 
