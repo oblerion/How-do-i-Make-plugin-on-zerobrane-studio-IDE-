@@ -43,6 +43,8 @@ return {
   end,
   onMenuEditor = function(self, menu, editor, event)
 -- menu editor code
+  -- menu = wxMenu wignet
+  -- editor = wxStyledTextCtrl wignet
   end
 }
 
