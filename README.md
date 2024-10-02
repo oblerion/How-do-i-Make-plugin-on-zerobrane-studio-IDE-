@@ -40,6 +40,9 @@ return {
     ide:RemoveInterpreter(interpreter.name, interpreter)
     ide:RemoveAPI("lua", api.name)
   end,
+  onMenuEditor = function(self, menu, editor, event)
+-- menu editor code
+  end
 }
 
 ```
