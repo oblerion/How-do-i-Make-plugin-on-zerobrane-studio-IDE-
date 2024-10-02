@@ -15,7 +15,7 @@ local api={
     type = "function",
     description = [[A function to get x value]],
     args = "()",
-    return = "(x:number)"
+    returns = "(x:number)"
   }
 }
 ```
