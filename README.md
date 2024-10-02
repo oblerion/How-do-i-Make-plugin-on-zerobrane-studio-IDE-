@@ -9,7 +9,8 @@ it is a single .lua file in packages folder zb directory.
 ## What are plugin features ?
 - [interpreter](interpreter.md) (run debuger/ custom binairy)
 - [api](api.md) (auto-completion)
-- an other ...
+- editor ???
+- menu ???
 
 ## Plugin template.lua
 ```lua
