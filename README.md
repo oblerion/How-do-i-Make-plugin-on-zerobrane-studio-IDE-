@@ -46,6 +46,4 @@ return {
 }
 
 ```
-[editor API](https://docs.wxwidgets.org/trunk/classwx_styled_text_ctrl.html)<br>
-[menu API](https://docs.wxwidgets.org/trunk/classwx_menu.html)<br>
 source : [github.com/oblerion/How-do-i-make-plugin-on-zerobrane-studio-IDE-](https://github.com/oblerion/How-do-i-make-plugin-on-zerobrane-studio-IDE-)
