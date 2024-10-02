@@ -42,8 +42,8 @@ return {
   end,
   onMenuEditor = function(self, menu, editor, event)
 -- menu editor code
-  -- menu = wxMenu wignet
-  -- editor = wxStyledTextCtrl wignet
+  -- menu = wxMenu wignet             (set menu item)
+  -- editor = wxStyledTextCtrl wignet (link menu item -> function)
   end
 }
 
