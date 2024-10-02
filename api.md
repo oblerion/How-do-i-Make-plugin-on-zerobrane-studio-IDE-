@@ -2,7 +2,7 @@
 
 ```lua
 local api={
--- function print 
+-- function print(text) 
   print = {
     type = "function",
     description = [[A print function]],
@@ -10,7 +10,7 @@ local api={
     args = "(text:string)",
     returns = "()"
   },
--- function getX
+-- function getX() => x
   getX = {
     type = "function",
     description = [[A function to get x value]],
