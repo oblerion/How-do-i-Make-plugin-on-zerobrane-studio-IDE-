@@ -9,6 +9,13 @@ local api={
     --       var:type
     args = "(text:string)",
     returns = "()"
+  },
+-- function getX
+  getX = {
+    type = "function",
+    description = [[A function to get x value]],
+    args = "()",
+    return = "(x:number)"
   }
 }
 ```
