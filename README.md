@@ -9,8 +9,7 @@ it is a single .lua file in packages folder zb directory.
 ## What are plugin features ?
 - [interpreter](interpreter.md) (run debuger/ custom binairy)
 - [api](api.md) (auto-completion)
-- editor ???
-- menu ???
+- MenuEditor (edit menu/editor acting)
 
 ## Plugin template.lua
 ```lua
@@ -49,6 +48,6 @@ return {
 }
 
 ```
-[editor API](https://docs.wxwidgets.org/trunk/classwx_styled_text_ctrl.html)
-[menu API](https://docs.wxwidgets.org/trunk/classwx_menu.html)
+[editor API](https://docs.wxwidgets.org/trunk/classwx_styled_text_ctrl.html)<br>
+[menu API](https://docs.wxwidgets.org/trunk/classwx_menu.html)<br>
 source : [github.com/oblerion/How-do-i-make-plugin-on-zerobrane-studio-IDE-](https://github.com/oblerion/How-do-i-make-plugin-on-zerobrane-studio-IDE-)
