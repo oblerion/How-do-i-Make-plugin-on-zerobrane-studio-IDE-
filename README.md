@@ -41,9 +41,7 @@ return {
     ide:RemoveAPI("lua", api.name)
   end,
   onMenuEditor = function(self, menu, editor, event)
--- menu editor code
-  -- menu = wxMenu wignet             (set menu item)
-  -- editor = wxStyledTextCtrl wignet (link menu item -> function)
+    -- menu editor code
   end
 }
 
